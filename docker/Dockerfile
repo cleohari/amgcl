@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:kinetic
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y git cmake g++ \
     libboost-test-dev libboost-program-options-dev libboost-serialization-dev
